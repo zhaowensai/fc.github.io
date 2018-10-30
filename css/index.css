@@ -1,0 +1,122 @@
+body,h2{
+    margin: 0px;
+    padding:0px;
+    color: white;
+}
+section#main,header,aside,footer{
+    background: #333333;
+    margin: 5px 0;
+}
+h2{
+    text-align: center;
+    font-size: 3em;
+}
+section#content{
+    width: 960px;
+    margin: auto;
+}
+header{
+    float: left;
+    width: 100%;
+    line-height: 100px;
+}
+aside#left{
+    float: left;width: 100%;
+    width: 200px;
+    line-height: 400px;
+}
+section#main{
+    float: left;
+    width: 540px;
+    line-height: 400px;
+    margin-left: 10px;
+}
+aside#right{
+    float: right;
+    width: 200px;
+    line-height: 400px;
+}
+footer{
+    float: left;
+    width: 100%;
+    line-height: 80px;
+}
+
+@media screen and (min-width: 1024px){
+    h2{
+        text-align: center;
+        font-size: 3.5rem;
+        color: yellow;
+    }
+    section#contentainer{
+        width: 960px;
+        margin: auto;
+    }
+    header{
+        float: left;
+        width: 100%;
+    }
+    aside#left{
+        float: left;
+        width: 200px;
+    }
+    section#main{
+        float: left;
+        margin-left: 10px;
+        width: 540px;
+    }
+    aside#right{
+        width: 200px;
+        float: right;
+    }
+    footer{
+        float: left;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px){
+    h2{
+        text-align: center;
+        font-size: 2em;
+        color: #0F0;
+    }
+    section#content{
+        width: 400px;
+        margin: auto;
+    }
+    aside#left{
+        float: left;
+        width: 100%;
+        line-height: 100px;
+    }
+    section#main{
+        float: left;
+        width: 100%;
+        line-height: 200px;
+        margin-left: 0px;
+    }
+    aside#right{
+        float: left;
+        width: 100%;
+        line-height: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
