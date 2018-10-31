@@ -20,7 +20,7 @@
         background: #fff;
         padding-left: 20%;
     }
-    .header_top>img{
+    .leftimg{
         float: left;
         margin: 0;
         padding: 0;
@@ -34,6 +34,9 @@
         font-size: 36px;
         color: #D7161B;
         padding-left: 17px;
+    }
+    .rightimg{
+        display: none;
     }
     li{
         list-style-type: none;
@@ -77,28 +80,38 @@
     }
     .header{
         width: 100%;
-        background: #fff;
+        height: 64px;
+        background: red;
     }
-    .header_top{
-        display: none;
+    .header_top span{
+        font-size: 29px;
+        font-family: cursive;
+        position: relative;
+        top: -8px;
     }
-    .icon{
+    .leftimg {
+        width: 50px;
+        height: 50px;
+        padding-left: 50px;
+        padding-top: 5px;
+    }
+    .rightimg{
+        padding-top: 13px;
+        padding-right: 35px;
+        float: right;
+    }
 
-        width: 30px;
-        height: 30px;
-        /*background: red;*/
-    }
-    .icon hr{
-        padding-top: 10px;
-    }
-    li{
-        list-style-type: none;
-    }
     #menu{
         background: #015293;
-        width: 100%;
+        width: 28.5%;
         height: 30px;
         float: left;
+        float: right;
+        position: relative;
+        top: -55px;
+        left: -30px;
+        display: none;
+
     }
     .nav{
         margin: 0px;
@@ -107,13 +120,14 @@
     .navli{
         font-weight: normal;
         position: relative;
-        width: 70px;
+        width: 115px;
         border-bottom: 1px solid red;
         font-size: 15px;
         display: block;
         line-height: 30px;
-        background: #015293;
-
+        background: #343434;
+        list-style-type: none;
+        text-align: center;
     }
 
 
